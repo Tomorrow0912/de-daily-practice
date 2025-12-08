@@ -22,3 +22,26 @@ Next Steps:
 - Working with multi table functionality
 - Modifying table schema
 - deleting data efficiently and safely
+
+
+08-12-2025 - python cleaning
+
+Purpose:
+Use the Pandas module to load structured data, apply simple transformations, and preview the results within Python.
+
+Exercises completed:
+- created a virtual environment for the session
+- installed required modules and verified environment isolation
+- loaded an existing CSV into a Panda DataFrame
+- converted a selected column to lower case
+- output a transformed subset column of data for validation
+
+Lessons:
+- how to create, activate and work within a virtual environment
+- correct script structure using top to bottom workflow
+- how pandas reads a CSV and returns data
+
+Next steps:
+- remove white spaces
+- explore handling of missing or null values
+- write data back into the CSV
