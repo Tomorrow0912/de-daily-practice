@@ -45,3 +45,23 @@ Next steps:
 - remove white spaces
 - explore handling of missing or null values
 - write data back into the CSV
+
+09-12-2025 - python cleaning V2
+
+Purpose:
+Further transform and clean the data, perform fundamentals of ETL
+
+Exercises completed:
+- removed trailing spaces from data
+- export cleaned data to a new csv
+- print both raw and cleaned data for comparison
+- added handling for null items
+
+Lessons:
+- importance of using quotation marks for text
+- use of "index = false" in to.csv to prevent unamed columns
+
+Next steps:
+- validate data types for each column
+- add a derived field, for example boolean
+- introduce error handling around file loading and saving
