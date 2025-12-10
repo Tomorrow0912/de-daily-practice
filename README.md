@@ -24,6 +24,7 @@ Next Steps:
 - deleting data efficiently and safely
 
 
+
 08-12-2025 - python cleaning
 
 Purpose:
@@ -46,6 +47,7 @@ Next steps:
 - explore handling of missing or null values
 - write data back into the CSV
 
+
 09-12-2025 - python cleaning V2
 
 Purpose:
@@ -65,3 +67,25 @@ Next steps:
 - validate data types for each column
 - add a derived field, for example boolean
 - introduce error handling around file loading and saving
+
+
+10-12-2025 - SQL Joins
+
+Purpose:
+Create a secondary table within a singular SQLite datavase, and utilise SQL Inner-Joins to merge the data
+
+Exercises completed:
+- created a weapons table with its own primary key and a character_id field referencing characters.id
+- inserted weapon rows linked to existing character IDs
+- queried characters and weapons together using an INNER JOIN
+
+Lessons:
+- Importance of using a unique ID
+- How to drop a table created in error
+- JOIN returns a combined result set, it does not modify tables
+- both tables must live in the same database file
+
+Next Steps:
+- LEFT and RIGHT join practices
+- Filtering and conditions on JOINS
+- Data Validation Queries
