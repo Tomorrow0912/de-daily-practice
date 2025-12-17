@@ -1,8 +1,8 @@
-name,race,role
-Frodo Baggins,hobbit,Ring bearer
-Aragorn,human,King of Gondor
-Legolas,elf,Archer
-Gimli,dwarf,Warrior
-Gandalf the Grey,maia,Wizard
-Boromir,human,Captain
-Samwise Gamgee,hobbit,Gardener
+name,race,role,age
+Frodo Baggins,hobbit,Ring bearer,65
+Aragorn,human,King of Gondor,113
+Legolas,elf,Archer,200
+Gimli,dwarf,Warrior,120
+Gandalf the Grey,maia,Wizard,240
+Boromir,human,Captain,100
+Samwise Gamgee,hobbit,Gardener,godlike

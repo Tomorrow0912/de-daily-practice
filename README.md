@@ -89,3 +89,39 @@ Next Steps:
 - LEFT and RIGHT join practices
 - Filtering and conditions on JOINS
 - Data Validation Queries
+
+
+12-12-2025 Python Cleaning V3
+
+Purpose: Add data validation, parsing, and a boolean flag
+
+Exercises completed:
+- Convert a column into an int data type and catching manually added errors
+- create a boolean flag that reads a column and returns a true/false value
+
+Lessons learned:
+- In booleans '==' compares, '=' verifies
+- Using try/except to handle parsing errors without crashing the script
+
+Next steps:
+- Add lightweight validation reporting (count invalid rows, print which rows failed)
+- Decide a consistent strategy for invalid numeric values (drop vs fill with a default)
+
+17-12-2025 Python Cleaning V4
+
+Purpose: Add error catching and termination when required
+
+Exercises completed:
+- imported sys
+- have the system exit if the read fails, to prevent further script errors
+- cleaned up the outputs to help clarity within error messsages
+
+Lessons learned:
+- Write will make the file if it doesnt exist
+- sys.exit(1) immediately ends the terminal session
+
+Next steps:
+- Introduce basic user input for file paths
+- Validate user input before attempting file operations
+- Handle invalid or missing input gracefully without crashing
+- Begin separating configuration (paths, filenames) from transformation logic
